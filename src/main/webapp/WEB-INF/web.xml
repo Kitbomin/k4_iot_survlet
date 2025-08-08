@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!--
+       ctrl + /
+
+       WEB-INF Web Information의 약자(web에 관련된 정보를 의미)
+
+       web.xml
+            : 서블릿 기반 웹 애플리케이션 설정 파일 (XML 형식 - 웹 어플리케이션이 어떻게 동작할지 정의)
+            - 서블릿 컨테이너(톰캣)가 웹 애플리케이션 실행 시 서블릿을 어떻게 연결할 지
+                , 어떠한 URL에 연결할 지 알려주는 설명서 역할을 함
+       -->
+
+
+    <!-- 서블릿 등록 (서블릿 클래스 정의: 서블릿 이름, 서블릿 클래스 경로 지정) -->
+
+    <!-- 서블릿 URL 매핑(서블릿과 URL 패턴을 연결: 서블릿 이름, URL 패턴 지정 -->
+
+</web-app>
