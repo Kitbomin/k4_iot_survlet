@@ -50,15 +50,16 @@
       %>
 
       <tr>
-        <td coluspan = "5"> No User found. </td>
+        <td colspan="5">No User found.</td>
       </tr>
       <%
             } //else문 종료
 
         %>
 
-      <br />
-      <a href="new"> Add New User </a>
+      <br/>
+
+      <a href="new">Add New User </a>
 
     </table>
 

@@ -5,7 +5,7 @@ package org.example.k4_iot_servlet.dao;
 // JPA - SQL 쿼리 제공 (+ JPQL, QueryDSL 사용)
 
 public class UserSql {
-    public static final String INSERT = "INSERT INTO user (name, email, country) VALUES (?, ?, ?)";
+    public static final String INSERT = "INSERT INTO users (name, email, country) VALUES (?, ?, ?)";
 
     public static final String SELECT_BY_ID = "SELECT * FROM users WHERE id = ?";
     public static final String SELECT_ALL = "SELECT * FROM users";
