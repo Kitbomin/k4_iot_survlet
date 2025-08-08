@@ -40,8 +40,8 @@
 
 
         <td>
-          <a href = "edit?id=<%= user.getId() %>>Edit</a>
-          <a href = "delete?id=<%= user.getId() %>>Delete</a>
+          <a href="edit?id=<%= user.getId() %>">Edit</a>
+          <a href="delete?id=<%= user.getId() %>">Delete</a>
         </td>
       </tr>
 
